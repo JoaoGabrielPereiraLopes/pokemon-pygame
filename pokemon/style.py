@@ -1,8 +1,10 @@
 class Style:
-    def __init__(this,weak=str,strong=str)->None:
-        this.weak=weak
-        this.strong=strong
-    def GetWeak(this)->str:
-        return this.weak
-    def Getstrong(this)->str:
-        return this.strong
+    def __init__(self, weak=str, strong=str) -> None:
+        self.weak = weak
+        self.strong = strong
+    
+    def GetWeak(self) -> str:
+        return self.weak
+    
+    def GetStrong(self) -> str:
+        return self.strong
